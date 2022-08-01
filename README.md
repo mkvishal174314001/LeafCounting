@@ -21,7 +21,7 @@ make
 ```
 ## Feature Visualization
 
-It is preferable to compile yolo with opencv for interactive visualization. FOllowing steps can help get visualization of weights as jpg files shown in LeafCounting/feature-viz/
+It is preferable to build yolo with opencv for interactive visualization. FOllowing steps can help get visualization of weights as jpg files shown in LeafCounting/feature-viz/
 ```
 cp LeafCounting/src/convolutional_layer.c ./src/
 cp LeafCounting/src/image_opencv.cpp ./src/
