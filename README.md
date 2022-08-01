@@ -1,7 +1,7 @@
 # LeafCounting
 Supporting code for paper "Leaf Count Aided Novel Framework for Rice (Oryza-Sativa L.) Genotypes Discrimination in Phenomics: Leveraging Comput-er Vision and Deep Learning Applications"
 
-##Inference
+## Inference
 ```
 git clone https://github.com/pjreddie/darknet
 cd darknet
@@ -19,5 +19,5 @@ make
 ```
 ./darknet detector test LeafCounting/leaftipSingle.data LeafCounting/leaftipSingle.cfg LeafCounting/leaftipSingle_56000.weights LeafCounting/testdata/229.png
 ```
-# Feature Visualization
+## Feature Visualization
 
