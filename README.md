@@ -21,3 +21,11 @@ make
 ```
 ## Feature Visualization
 
+It is preferable to compile yolo with opencv for interactive visualization. FOllowing steps can help get visualization of weights as jpg files shown in LeafCounting/feature-viz/
+```
+cp LeafCounting/src/convolutional_layer.c ./src/
+cp LeafCounting/src/image_opencv.cpp ./src/
+cp LeafCounting/examples/darnet.c ./examples/darnet.c
+make
+./darknet visualize LeafCounting/leaftipSingle.cfg LeafCounting/leaftipSingle_56000.weights
+```
